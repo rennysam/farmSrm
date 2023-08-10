@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>All Products</h1>
+    <% for (product of products) { %>
+    <h3>Product: <%= product.cropName %></h3>
+    <p>Price: <%= product.cropPrice %></p>
+    <% } %>
+  </body>
+</html>
